@@ -1,0 +1,43 @@
+{
+    "key": "group_5d8b6fd921add",
+    "title": "Experts in the News",
+    "fields": [
+        {
+            "key": "field_5d8b702f1a4cc",
+            "label": "Featured on",
+            "name": "featured_on",
+            "type": "text",
+            "instructions": "example: on CNN",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "expert"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1590520204
+}

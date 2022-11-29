@@ -1,0 +1,257 @@
+{
+    "key": "group_5dca2dd632ea1",
+    "title": "Events Page",
+    "fields": [
+        {
+            "key": "field_5dced4c9893ad",
+            "label": "Excerpt",
+            "name": "excerpt",
+            "type": "text",
+            "instructions": "Event Excerpt - Limit is 117 Characters",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": 116
+        },
+        {
+            "key": "field_5dca32dd2f1a8",
+            "label": "Event Date",
+            "name": "event_date",
+            "type": "date_picker",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "F j, Y",
+            "return_format": "F j, Y",
+            "first_day": 0
+        },
+        {
+            "key": "field_5dca33102f1a9",
+            "label": "Start Time",
+            "name": "start_time",
+            "type": "time_picker",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "g:iA",
+            "return_format": "g:iA"
+        },
+        {
+            "key": "field_5dca358fa91bc",
+            "label": "End Time",
+            "name": "end_time",
+            "type": "time_picker",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "g:iA",
+            "return_format": "g:iA"
+        },
+        {
+            "key": "field_5dca338b2f1aa",
+            "label": "Venue",
+            "name": "venue",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5dca33d32f1ab",
+            "label": "Address",
+            "name": "address",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5dca33e12f1ac",
+            "label": "City, State Zip",
+            "name": "city_state_zip",
+            "type": "text",
+            "instructions": "Brooklyn, NY 11225",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5dca2dd966a8a",
+            "label": "Panelists",
+            "name": "panelists",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Panelist",
+            "sub_fields": [
+                {
+                    "key": "field_5dca32782f1a5",
+                    "label": "Image",
+                    "name": "image",
+                    "type": "image",
+                    "instructions": "Photo of Panelist",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "full",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_5dca32a62f1a6",
+                    "label": "Name",
+                    "name": "name",
+                    "type": "text",
+                    "instructions": "First and last name of Panelist",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5dca32be2f1a7",
+                    "label": "Short Bio",
+                    "name": "short_bio",
+                    "type": "textarea",
+                    "instructions": "Short bio of the panelist",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dcee51ac4ec8",
+            "label": "RSVP Form",
+            "name": "rsvp_form",
+            "type": "wysiwyg",
+            "instructions": "DO NOT TOUCH",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "[wpforms id=\"547\" title=\"false\" description=\"false\"]",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "event"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "excerpt",
+        "discussion",
+        "comments",
+        "slug",
+        "author"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1589770717
+}

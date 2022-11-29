@@ -1,0 +1,127 @@
+{
+    "key": "group_5dbf6a8d19468",
+    "title": "Press Page",
+    "fields": [
+        {
+            "key": "field_5dbf6ad4734f5",
+            "label": "Interview Requests Heading",
+            "name": "interview_requests_heading",
+            "type": "text",
+            "instructions": "Interview Requests Heading",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5dbf6b2b734f6",
+            "label": "Interview Requests Details",
+            "name": "interview_requests_details",
+            "type": "wysiwyg",
+            "instructions": "Paragraph about Interview Requests",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5dbf6b455adb7",
+            "label": "Press List Sign Up Header",
+            "name": "press_list_sign_up_header",
+            "type": "text",
+            "instructions": "Heading for Press List Sign Up Section",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5dbf76975adb8",
+            "label": "Press List Sign Up Content",
+            "name": "press_list_sign_up_content",
+            "type": "wysiwyg",
+            "instructions": "Press list sign up content",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5dbfa35566754",
+            "label": "Press List Form",
+            "name": "press_list_form",
+            "type": "wysiwyg",
+            "instructions": "Press List Form Shortcode",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "page-templates\/template-press.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "discussion",
+        "comments",
+        "page_attributes",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1589770639
+}

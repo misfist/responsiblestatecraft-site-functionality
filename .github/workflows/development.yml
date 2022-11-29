@@ -1,0 +1,21 @@
+name: Deploy to WP Engine Development
+on:
+  push:
+    branches:
+     - development
+jobs:
+  build:
+    runs-on: ubuntu-latest  
+    steps: 
+    - uses: actions/checkout@v2
+    - name: Deploy to WP Engine Development
+      uses: wpengine/github-action-wpe-site-deploy@v3.0
+      with:
+      # Deploy vars 
+        WPE_SSHG_KEY_PRIVATE: ${{ secrets.WPE_SSHG_KEY_PRIVATE }} 
+        WPE_ENV: responsibdev
+        # Deploy Options
+        REMOTE_PATH: "wp-content/plugins/site-functionality/"
+        PHP_LINT: TRUE
+        FLAGS: -azvr --inplace --delete --exclude=".*" --exclude-from=.gitignore
+        CACHE_CLEAR: TRUE

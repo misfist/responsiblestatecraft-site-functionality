@@ -1,0 +1,46 @@
+{
+    "key": "group_5dad19a6d2d2f",
+    "title": "Article Extras",
+    "fields": [
+        {
+            "key": "field_5ed827bb8f7a6",
+            "label": "Primary Tag",
+            "name": "primary_tag",
+            "type": "taxonomy",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "post_tag",
+            "field_type": "select",
+            "allow_null": 0,
+            "add_term": 0,
+            "save_terms": 1,
+            "load_terms": 0,
+            "return_format": "id",
+            "multiple": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1619026402
+}

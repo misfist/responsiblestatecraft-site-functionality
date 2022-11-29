@@ -1,0 +1,160 @@
+{
+    "key": "group_5dab8121d960d",
+    "title": "Expert Bio",
+    "fields": [
+        {
+            "key": "field_5dab816ee2184",
+            "label": "Twitter Username",
+            "name": "twitter",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "https:\/\/www.twitter.com\/",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5db795b3080bf",
+            "label": "Expert Title",
+            "name": "expert_title",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5de68298d34ac",
+            "label": "Expertise",
+            "name": "expert_expertise",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5ecc6486d4fd9",
+            "label": "Programs",
+            "name": "programs",
+            "type": "taxonomy",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "category",
+            "field_type": "multi_select",
+            "allow_null": 1,
+            "add_term": 0,
+            "save_terms": 0,
+            "load_terms": 0,
+            "return_format": "id",
+            "multiple": 0
+        },
+        {
+            "key": "field_5dbde994078f1",
+            "label": "Expert Extended Bio",
+            "name": "expert_extended_bio",
+            "type": "wysiwyg",
+            "instructions": "Extended biography text for Expert's Biography page",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5dbe2ff9d1bb1",
+            "label": "Public Email",
+            "name": "public_email",
+            "type": "text",
+            "instructions": "Email you want listed on your bio page - Defaulted to interviews@quincyinst.org",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5dbe372f4c754",
+            "label": "Public Number",
+            "name": "public_number",
+            "type": "text",
+            "instructions": "Enter your number if you'd like it listed on your bio. Defaults to 212-857-3946",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "user_role",
+                "operator": "==",
+                "value": "expert"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1590520193
+}

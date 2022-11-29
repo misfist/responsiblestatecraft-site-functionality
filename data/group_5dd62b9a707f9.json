@@ -1,0 +1,66 @@
+{
+    "key": "group_5dd62b9a707f9",
+    "title": "Video Post Format",
+    "fields": [
+        {
+            "key": "field_5dd62ba76c518",
+            "label": "Embed Code",
+            "name": "embed_code",
+            "type": "textarea",
+            "instructions": "Paste iFrame code from YouTube",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 3,
+            "new_lines": ""
+        },
+        {
+            "key": "field_5ec1fad72a988",
+            "label": "Media Embed",
+            "name": "embed",
+            "type": "oembed",
+            "instructions": "Paste in the URL.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "width": "",
+            "height": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "single-video.php"
+            }
+        ],
+        [
+            {
+                "param": "post_format",
+                "operator": "==",
+                "value": "video"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1589772037
+}

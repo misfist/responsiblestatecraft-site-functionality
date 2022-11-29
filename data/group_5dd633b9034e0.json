@@ -1,0 +1,50 @@
+{
+    "key": "group_5dd633b9034e0",
+    "title": "Audio Post Format",
+    "fields": [
+        {
+            "key": "field_5dd633b908665",
+            "label": "Embed Code",
+            "name": "embed_code",
+            "type": "textarea",
+            "instructions": "Paste iFrame Code",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 3,
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "single-podcast.php"
+            }
+        ],
+        [
+            {
+                "param": "post_format",
+                "operator": "==",
+                "value": "audio"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1589771714
+}

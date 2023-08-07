@@ -6,7 +6,7 @@
  * Author URI:          https://patrizia-lutz.tech
  * Text Domain:         site-functionality
  * Domain Path:         /languages
- * Version:             0.1.5
+ * Version:             0.1.6
  * Requires at least:   5.7
  *
  * @package             Site_Functionality
@@ -102,6 +102,7 @@ class Site_Functions {
 		include_once $this->plugin_dir . '/src/shortcodes.php';
 
 		include_once $this->plugin_dir . '/src/admin/admin.php';
+		include_once $this->plugin_dir . '/src/custom-fields/custom-fields.php';
 		include_once $this->plugin_dir . '/src/integrations/wp-post-modal.php';
 		// include_once( $this->plugin_dir . '/src/post-types/modal.php' 			);
 		// include_once( $this->plugin_dir . '/src/remote-posts/functions.php' 	);
